@@ -5,8 +5,8 @@
   display: block;
   text-align: center;
   color: white;
-  background-color: color(brand);
-  border: 0.2rem solid color(brand);
+  background-color: $brand-color;
+  border: 0.2rem solid $brand-color;
 
   &:focus,
   &:hover {
@@ -16,7 +16,7 @@
   }
 
   &:active {
-    color: color(brand);
+    color: $brand-color;
     background-color: white;
   }
 

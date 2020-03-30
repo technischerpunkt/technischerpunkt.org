@@ -4,11 +4,11 @@
   height: 100%;
 
   &::first-letter {
-    color: color(brand);
+    color: $brand-color;
   }
-  
+
   a {
-    color: color(brand);
+    color: $brand-color;
   }
 
   &-section {

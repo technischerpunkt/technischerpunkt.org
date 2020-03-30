@@ -45,9 +45,9 @@ html {
 
 body {
   font-family: 'Sen',Geneva,sans-serif;
-  color: darken(color(brand), $amount: 25%);
+  color: darken($brand-color, $amount: 25%);
   line-height: 1.2;
-  background-color: lighten(desaturate(color(brand), 62%), 58%);
+  background-color: lighten(desaturate($brand-color, 62%), 58%);
   min-height: 100%;
 }
 
