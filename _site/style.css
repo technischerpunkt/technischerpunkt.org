@@ -362,12 +362,20 @@ a {
 .mb-10 {
   margin-bottom: 1rem; }
 
+.mb-20 {
+  margin-bottom: 2rem; }
+
 .header {
   padding: 2rem 0; }
 
 .page-title {
   font-size: 1.6rem;
-  font-weight: 800; }
+  font-weight: 800;
+  text-align: center;
+  line-height: 1; }
+  .page-title span {
+    display: block;
+    line-height: 1rem; }
 
 .tagline {
   font-size: 1.4rem;
