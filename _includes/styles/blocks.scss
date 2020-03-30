@@ -1,0 +1,47 @@
+.block {
+  padding: 2rem 2rem 2rem;
+  background-color: rgba(white, 0.9);
+  height: 100%;
+
+  & h3 {
+    &::first-letter {
+      color: $brand-color;
+    }
+  }
+
+  & h2 {
+    &:after {
+      border-bottom: 2px solid;
+      content: "";
+      display: block;
+      height: 0px;
+      margin: 0 auto;
+      position: relative;
+      bottom: -1rem;
+      width: 15%;
+    }
+  }
+
+  &-section {
+    text-align: center;
+    padding-bottom: 1.3rem;
+    padding-top: 4rem;
+    text-transform: uppercase;
+    background-color: transparent;
+
+    h2 {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .thumbnail {
+    width: 100%;
+    height: auto;
+  }
+
+  figcaption {
+    margin-top: 0.4rem;
+    padding: .1rem;
+    font-size: .8rem;
+  }
+}

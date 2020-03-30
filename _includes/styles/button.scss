@@ -1,0 +1,54 @@
+.button {
+  border: 0.2rem solid;
+  color: $text-color;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: .5rem;
+
+  > * {
+    vertical-align: middle;
+  }
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:active {
+    background-color: white;
+  }
+
+  &-primary {
+    text-transform: uppercase;
+    background-color: $brand-color;
+    padding: .7rem 1rem;
+    color: white;
+    border-color: $brand-color;
+
+    &:focus,
+    &:hover {
+      filter: saturate(140%);
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  &-secondary {
+    background-color: $background-color;
+    border-color: $background-color;
+  }
+
+  &-nowrap {
+    white-space: nowrap;
+  }
+
+  &__icon {
+    svg {
+      height: 2rem;
+      width: auto;
+    }
+  }
+}
+
+

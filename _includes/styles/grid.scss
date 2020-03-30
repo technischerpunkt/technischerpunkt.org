@@ -1,0 +1,64 @@
+.container {
+
+  padding: 0 1rem;
+
+  @include media-breakpoint-up(lg) {
+    max-width: 992px;
+    margin: 0 auto;
+  }
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+
+  &-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  &-centered {
+    justify-content: center;
+  }
+
+  &-vcentered {
+    align-items: center;
+  }
+
+  &-equal-height {
+    align-items: stretch;
+
+  > .col {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &-vert {
+    flex-direction: column;
+  }
+}
+
+.col {
+  padding: 0 1rem;
+
+  @include media-breakpoint-up(md) {
+    flex: 1;
+  }
+
+}
+
+.col-2 {
+  @include media-breakpoint-up(md) {
+    flex-basis: 50%;
+  }
+}
+
+.col-wide {
+  flex-basis: 100%;
+}
+
+.col-min {
+  flex-grow: 0;
+
+}

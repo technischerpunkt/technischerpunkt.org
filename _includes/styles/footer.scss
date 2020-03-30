@@ -1,0 +1,10 @@
+.footer {
+  background-color: $brand-color;
+  padding: 1rem;
+  text-align: center;
+  color: $background-color;
+
+  .nav-link {
+    color: $background-color;
+  }
+}

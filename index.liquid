@@ -1,0 +1,20 @@
+---
+layout: layouts/main-layout.liquid
+pageTitle: Technischer • Punkt
+---
+<div class="row row-equal-height">
+{%- for block in collections.blocks -%}
+  <div class="col {% if block.data.customCol %}{{ block.data.customCol }}{%- else -%} col-2{%- endif -%}">
+    <article
+      id="block-{{ block.data.blockTitle | slug }}"
+      class="block block-{{ block.data.blockTitle | slug }} {{ block.data.customClass }}"
+    >
+    {% if block.data.icon %}
+      <div class="icon"><i class="fas fa-3x fa-{{ block.data.icon }}"></i></div>
+    {% endif %}
+      {{ block.templateContent | safe }}
+    </article>
+  </div>
+{% endfor %}
+</div>
+
