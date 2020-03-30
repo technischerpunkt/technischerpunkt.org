@@ -1,6 +1,7 @@
 ---
 blockTitle: Sicherheit
 date: 2010-01-01
+icon: shield-alt
 ---
 ### Sicherheit
 

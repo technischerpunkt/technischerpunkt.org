@@ -1,6 +1,7 @@
 ---
 blockTitle: Gutes Internet / Wlan
 date: 2070-01-01
+icon: wifi
 ---
 ### Gutes Internet / Wlan
 

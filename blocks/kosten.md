@@ -1,6 +1,7 @@
 ---
 blockTitle: Kosten
-date: 2020-01-01
+date: 2022-01-01
+icon: money-bill-wave-alt
 ---
 ### Kosten
 
