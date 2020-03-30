@@ -1,0 +1,62 @@
+.container {
+
+  @include media-breakpoint-up(sm) {
+    max-width: 992px;
+    margin: 0 auto;
+  }
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+
+  &-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  &-centered {
+    justify-content: center;
+  }
+
+  &-equal-height {
+    align-items: stretch;
+
+    .col {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.col {
+  padding: 0 1rem;
+
+  @include media-breakpoint-up(sm) {
+    flex: 1;
+  }
+
+}
+
+.col-2 {
+  @include media-breakpoint-up(sm) {
+    flex-basis: 50%;
+  }
+}
+
+.col-wide {
+  flex-basis: 100%;
+}
+
+.col-min {
+  flex-grow: 0;
+
+}
+
+.mt-10 {
+  margin-top: 1rem;
+}
+
+.mb-10 {
+  margin-bottom: 1rem;
+}

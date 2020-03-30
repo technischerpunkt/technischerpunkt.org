@@ -1,0 +1,26 @@
+.button {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: .7rem 1rem;
+  display: block;
+  text-align: center;
+  color: white;
+  background-color: color(brand);
+  border: 0.2rem solid color(brand);
+
+  &:focus,
+  &:hover {
+    filter: saturate(140%);
+    text-decoration: none;
+    color: white;
+  }
+
+  &:active {
+    color: color(brand);
+    background-color: white;
+  }
+
+
+}
+
+

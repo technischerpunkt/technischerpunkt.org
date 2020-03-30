@@ -1,0 +1,7 @@
+$color: (
+  brand: #9a1c7f,
+);
+
+@function color($name) {
+  @return map-get($color, $name);
+}

@@ -1,0 +1,27 @@
+.header {
+  padding: 2rem 0;
+}
+
+.page-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+.tagline {
+  font-size: 1.4rem;
+  font-style: italic;
+  margin-bottom: 0;
+  margin-top: 1.1rem;
+  text-align: center;
+
+}
+
+
+.logo {
+  width: 8rem;
+  height: auto;
+
+  svg {
+    width: 100%;
+    height: auto;
+  }
+}
