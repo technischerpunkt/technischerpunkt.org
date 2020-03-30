@@ -2,5 +2,9 @@
   background-color: $brand-color;
   padding: 1rem;
   text-align: center;
-  color: white;
+  color: $background-color;
+
+  .nav-link {
+    color: $background-color;
+  }
 }

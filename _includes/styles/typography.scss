@@ -47,7 +47,7 @@ body {
   font-family: 'Sen',Geneva,sans-serif;
   color: darken($brand-color, $amount: 25%);
   line-height: 1.2;
-  background-color: lighten(desaturate($brand-color, 62%), 58%);
+  background-color: $background-color;
   min-height: 100%;
 }
 

@@ -395,7 +395,9 @@ a {
   background-color: #9a1c7f;
   padding: 1rem;
   text-align: center;
-  color: white; }
+  color: #f0eef0; }
+  .footer .nav-link {
+    color: #f0eef0; }
 
 .block {
   padding: 2rem 2rem 2rem;
