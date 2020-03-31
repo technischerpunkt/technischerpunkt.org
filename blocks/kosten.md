@@ -5,4 +5,4 @@ icon: money-bill-wave-alt
 ---
 ### Kosten
 
-Die Nutzung vom Technischen Punkt ist umsonst. Normalerweise gilt: Wer nicht zahlt, zahlt mit ihren Daten. Aktuell bringen wir die \~ 40 EUR / Monat für das Betreiben der Server & Domain einfach selber auf. Wenn wir uns das nicht mehr leisten können, starten wir eine Spendenrunde oder sowas in der Art :)
+Die Nutzung vom Technischen Punkt ist kostenlos. Oft zahlst du bei kostenlosen Angeboten mit deinen Daten, das ist hier nicht der Fall (siehe Privatssphäre). Wir bringen die  \~ 40 EUR pro Monat für das Betreiben der Server & Domain einfach selber auf. Wenn wir uns das nicht mehr leisten können, starten wir eine Spendenrunde oder sowas in der Art :)
