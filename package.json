@@ -2,13 +2,15 @@
   "name": "technical-point-cms",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "watch": "webpack --watch",
-    "serve": "eleventy --serve"
+    "serve": "eleventy --serve",
+    "prepack": "webpack && eleventy"
   },
   "author": "Möhrchenprinz",
   "license": "ISC",
+  "files": ["_site"],
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
     "@fortawesome/fontawesome-free": "^5.12.1",
