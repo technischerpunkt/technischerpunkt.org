@@ -1,6 +1,6 @@
 ---
 blockTitle: Stumm schalten
-date: 2090-01-01
+date: 2100-01-01
 icon: volume-mute
 ---
 ### Stumm schalten

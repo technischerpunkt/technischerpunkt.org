@@ -26,7 +26,7 @@ Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konk
 
 [![Creative Commons Lizenz](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Technischer Punkt</span> ist lizensiert unter der [Creative Commons Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Technischer Punkt</span> ist lizensiert unter der [Creative Commons Namensnennung &ndash; Nicht-kommerziell &ndash; Weitergabe unter gleichen Bedingungen 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 Basierend auf der Arbeit von [https://technischerpunkt.org](https://technischerpunkt.org).
 
 Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
