@@ -1,6 +1,6 @@
 ---
 blockTitle: Kleingruppen
-date: 2120-01-01
+date: 2100-01-01
 icon: users
 ---
 ### Kleingruppen
