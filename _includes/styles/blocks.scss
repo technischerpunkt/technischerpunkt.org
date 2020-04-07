@@ -3,8 +3,23 @@
   background-color: white;
   height: 100%;
 
-  &::first-letter {
-    color: $brand-color;
+  & h3 {
+    &::first-letter {
+      color: $brand-color;
+    }
+  }
+
+  & h2 {
+    &:after {
+      border-bottom: 2px solid;
+      content: "";
+      display: block;
+      height: 0px;
+      margin: 0 auto;
+      position: relative;
+      bottom: -1rem;
+      width: 15%;
+    }
   }
 
   a {
