@@ -1,6 +1,7 @@
 ---
 blockTitle: Warum nicht Zoom?
-date: 2170-01-01
+date: 2200-01-01
+customCol: col-wide
 ---
 ### Warum nicht Zoom?
 
