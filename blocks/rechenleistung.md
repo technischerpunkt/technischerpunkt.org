@@ -1,6 +1,7 @@
 ---
 blockTitle: Rechenleistung
 date: 2060-01-01
+icon: horse
 ---
 ### Rechenleistung
 
