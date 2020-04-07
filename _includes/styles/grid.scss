@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin: 0 -1rem;
+  margin: 0;
 
   &-nowrap {
     flex-wrap: nowrap;
@@ -32,14 +32,14 @@
 .col {
   padding: 0 1rem;
 
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(md) {
     flex: 1;
   }
 
 }
 
 .col-2 {
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(md) {
     flex-basis: 50%;
   }
 }
