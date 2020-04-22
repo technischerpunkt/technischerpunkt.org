@@ -1,6 +1,6 @@
 {
   "name": "technical-point-cms",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.html",
   "scripts": {
@@ -15,16 +15,16 @@
   ],
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
-    "@fortawesome/fontawesome-free": "^5.12.1",
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "bootstrap": "^4.4.1",
-    "css-loader": "^3.4.2",
+    "css-loader": "^3.5.2",
     "debug": "^4.1.1",
-    "webpack": "^4.42.0"
+    "webpack": "^4.42.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
-    "autoprefixer": "^9.7.4",
+    "@babel/preset-env": "^7.9.5",
+    "autoprefixer": "^9.7.6",
     "babel-loader": "^8.1.0",
     "copy-webpack-plugin": "^5.1.1",
     "file-loader": "^6.0.0",
