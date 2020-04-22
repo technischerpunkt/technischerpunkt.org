@@ -2,22 +2,141 @@
 blockTitle: Quick Start
 date: 2000-01-01
 ---
-<div class="icon">{%- include assets/images/jitsi-logo.svg -%}</div>
-<h3>Quick Start</h3>
-  <h4>JitsiMeet-App installieren</h4>
-  <h4>Technischer • Punkt als Server-Url einstellen</h4>
-    <div class="row row-equal-height row-nowrap">
-      <div class="col col-2">
-        <figure>
-          <a href="/assets/images/jitsi-meet-install-1.png"><img class="thumbnail" src="/assets/images/jitsi-meet-install-1.png" alt="jitsi meet einstellen - Schritt 1"></a>
-          <figcaption>1.&nbsp;Einstellungen in der JitsiMeet-App öffen</figcaption>
-        </figure>
-      </div>
-      <div class="col col-2">
-        <figure>
-          <a href="/assets/images/jitsi-meet-install-2.png"><img class="thumbnail" src="/assets/images/jitsi-meet-install-2.png" alt="jitsi meet einstellen - Schritt 2"></a>
-          <figcaption>2.&nbsp;<code>https://jitsi.technischerpunkt.org/</code> als "Server-Url" eingeben</figcaption>
-        </figure>
-      </div>
-    </div>
-</ol>
+{% assign latestUrl = "https://github.com/technischerpunkt/jitsi-meet-electron/releases/latest/download/technischerpunkt-jitsi" %}
+
+<div class="switch">
+
+  <h3>Quick Start</h3>
+
+  <input type="radio" class="switch-input" name="switch-platform" id="switch-mobile">
+  <label class="switch-label" for="switch-mobile">Mobile</label>
+  <div class="switch-content">
+    <ol>
+      <li class="mb-10">
+        <h4 class="mb-10">JitsiMeet-App installieren</h4>
+
+        <div class="row row-centered">
+          <div class="col">
+            <a
+              href="https://f-droid.org/en/packages/org.jitsi.meet/"
+              alt="JitsiMeet-App im F-Droid Store"
+              class="button button-nowrap button-secondary mb-10"
+            >
+              <i class="fab fa-2x fa-android"></i>
+              <span>F-Droid</span>
+            </a>
+          </div>
+
+          <div class="col">
+            <a
+              href="https://play.google.com/store/apps/details?id=org.jitsi.meet"
+              alt="JitsiMeet-App im Google Play Store"
+              class="button button-nowrap button-secondary mb-10"
+            >
+              <i class="fab fa-2x fa-android"></i>
+              <span>Play Store</span>
+            </a>
+          </div>
+
+          <div class="col">
+            <a
+              href="https://apps.apple.com/de/app/jitsi-meet/id1165103905"
+              alt="JitsiMeet-App im iOS App Store"
+              class="button button-nowrap button-secondary mb-10"
+            >
+              <i class="fab fa-2x fa-app-store-ios"></i>
+              <span>App Store</span>
+            </a>
+          </div>
+        </div>
+      </li>
+
+      <li class="mb-10">
+        <h4>Technischen Punkt als Server eintragen</h4>
+        <p>
+          Einstellungen öffnen und <code>https://jitsi.technischerpunkt.org</code> als Server-URL eintragen.
+        </p>
+      </li>
+
+      <li class="mb-10">
+        <h4>Raum erstellen</h4>
+        <p>Einfach einen indiviuellen Raumnamen eintragen und betreten. Der Raumname sollte nicht erratbar sein, da sich damit uneingeladene Gäste in die Konferenz verirren könnten.</p>
+      </li>
+
+      <li class="mb-10">
+        <h4>Freund*innen einladen</h4>
+      </li>
+    </ol>
+  </div>
+
+  <input type="radio" checked class="switch-input" name="switch-platform" id="switch-desktop">
+  <label class="switch-label" for="switch-desktop">Desktop</label>
+  <div class="switch-content">
+    <ol>
+      <li class="mb-10">
+        <h4 class="mb-10">JitsiMeet-App herunterladen & starten</h4>
+
+        <div class="row row-centered">
+          <div class="col">
+            <a
+              href="{{ latestUrl | append: "-amd64.deb"}}"
+              alt="Installiere die JitsiMeet-App für Ubuntu"
+              class="button button-nowrap button-secondary mb-10"
+            >
+              <i class="fab fa-2x fa-ubuntu"></i>
+              <span>Ubuntu</span>
+            </a>
+          </div>
+
+          <div class="col">
+            <a
+              href="{{ latestUrl | append: "-x86_64.AppImage"}}"
+              alt="Installiere die JitsiMeet-App für Linux"
+              class="button button-nowrap button-secondary mb-10"
+            >
+              <i class="fab fa-2x fa-linux"></i>
+              <span>Linux</span>
+            </a>
+          </div>
+
+          <div class="col">
+            <a
+              href="{{ latestUrl | append: ".dmg"}}"
+              alt="Installiere die JitsiMeet-App für macOS"
+              class="button button-nowrap button-secondary mb-10"
+            >
+              <i class="fab fa-2x fa-apple"></i>
+              <span>macOS</span>
+            </a>
+          </div>
+
+          <div class="col">
+            <a
+              href="{{ latestUrl | append: ".exe"}}"
+              alt="Installiere die JitsiMeet-App für Windows"
+              class="button button-nowrap button-secondary mb-10"
+            >
+              <i class="fab fa-2x fa-windows"></i>
+              <span>Windows</span>
+            </a>
+          </div>
+        </div>
+      </li>
+
+      <li class="mb-10">
+        <h4>JitsiMeet-App installieren</h4>
+        <p>Eventuelle Sicherheitswarnung bestätigen und die App starten.</p>
+      </li>
+
+      <li class="mb-10">
+        <h4>Raum erstellen</h4>
+        <p>Einfach einen indiviuellen Raumnamen eintragen und betreten. Der Raumname sollte nicht erratbar sein, da sich damit uneingeladene Gäste in die Konferenz verirren könnten.</p>
+      </li>
+
+      <li class="mb-10">
+        <h4>Freund*innen einladen</h4>
+        <p>Nach Betreten des Raumes erscheint ein "Teilen" Fensterchen mit dem Link.</p>
+      </li>
+    </ol>
+  </div>
+</div>
