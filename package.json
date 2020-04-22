@@ -19,7 +19,7 @@
     "bootstrap": "^4.4.1",
     "css-loader": "^3.5.2",
     "debug": "^4.1.1",
-    "webpack": "^4.42.1"
+    "webpack": "^4.43.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
