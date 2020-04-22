@@ -1,7 +1,7 @@
 ---
-blockTitle: About
-date: 2000-01-01
+blockTitle: Other
+date: 2300-01-01
 customClass: block-section
 customCol: col-wide
 ---
-## About
+## und sonst so
