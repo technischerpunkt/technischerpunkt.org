@@ -5,6 +5,7 @@
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins";
 @import '~bootstrap/scss/bootstrap-reboot';
+@import 'helper';
 @import 'typography';
 @import 'grid';
 @import 'header';
@@ -12,3 +13,4 @@
 @import 'blocks';
 @import 'button';
 @import 'icon';
+@import 'switch';

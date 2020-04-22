@@ -1,0 +1,36 @@
+.switch {
+  position: relative;
+
+
+  &-input {
+    display: none;
+  }
+
+  &-label {
+    color: #444;
+    padding: 0 0.3rem;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    & ~ & {
+      right: 4rem;
+    }
+  }
+
+  &-content {
+    display: none;
+    position: relative;
+  }
+
+  &-input:checked + &-label {
+    color: $brand-color;
+  }
+
+  &-input:checked + &-label + &-content {
+    display: initial;
+  }
+}
+
+
