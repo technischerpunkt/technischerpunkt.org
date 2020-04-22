@@ -43,9 +43,12 @@
     white-space: nowrap;
   }
 
-
-
-
+  &__icon {
+    svg {
+      height: 2rem;
+      width: auto;
+    }
+  }
 }
 
 
