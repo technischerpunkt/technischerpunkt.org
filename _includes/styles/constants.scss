@@ -2,3 +2,4 @@ $primary: white;
 $brand-color: #9a1c7f;
 $background-color: lighten(desaturate($brand-color, 62%), 58%);
 $link-color: $brand-color;
+$text-color: darken($brand-color, $amount: 25%);
