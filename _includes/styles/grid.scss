@@ -1,6 +1,8 @@
 .container {
 
-  @include media-breakpoint-up(sm) {
+  padding: 0 1rem;
+
+  @include media-breakpoint-up(lg) {
     max-width: 992px;
     margin: 0 auto;
   }
@@ -10,7 +12,7 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin: 0;
+  margin: 0 -1rem;
 
   &-nowrap {
     flex-wrap: nowrap;
@@ -20,12 +22,20 @@
     justify-content: center;
   }
 
+  &-vcentered {
+    align-items: center;
+  }
+
   &-equal-height {
     align-items: stretch;
 
-    .col {
+  > .col {
       margin-bottom: 2rem;
     }
+  }
+
+  &-vert {
+    flex-direction: column;
   }
 }
 
@@ -51,16 +61,4 @@
 .col-min {
   flex-grow: 0;
 
-}
-
-.mt-10 {
-  margin-top: 1rem;
-}
-
-.mb-10 {
-  margin-bottom: 1rem;
-}
-
-.mb-20 {
-  margin-bottom: 2rem;
 }
