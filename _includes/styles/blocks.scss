@@ -22,9 +22,7 @@
     }
   }
 
-  a {
-    color: $brand-color;
-  }
+
 
   &-section {
     text-align: center;
@@ -49,4 +47,7 @@
     padding: .1rem;
     font-size: .8rem;
   }
+}
+a {
+  color: $brand-color;
 }
