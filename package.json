@@ -16,7 +16,7 @@
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",
     "@fortawesome/fontawesome-free": "^5.14.0",
-    "bootstrap": "^4.5.0",
+    "bootstrap": "^4.5.1",
     "css-loader": "^3.5.3",
     "debug": "^4.1.1",
     "webpack": "^4.43.0"
