@@ -8,7 +8,10 @@
     "serve": "eleventy --serve",
     "prepack": "rm -rf _site && webpack && eleventy"
   },
-  "author": "Möhrchenprinz",
+  "contributors": [
+    "Möhrchenprinz",
+    "murmel"
+  ],
   "license": "AGPL-3.0",
   "files": [
     "_site"
