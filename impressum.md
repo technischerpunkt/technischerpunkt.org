@@ -10,6 +10,10 @@ Angaben gemäß §5 TMG
 
 E-Mail: kontakt@technischerpunkt.org
 
+## Copyright
+
+Der Text steht unter der <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 International License</a>. Wenn du einzelne Texte für ein kommerzielles Projekt nutzen willst, kontaktiere uns bitte vorher. Der Quellcode steht unter der [AGPL-3.0](https://github.com/technischerpunkt/technischerpunkt.org/blob/main/LICENSE).
+
 ## Haftung für Inhalte
 
 Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
