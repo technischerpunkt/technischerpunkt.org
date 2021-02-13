@@ -9,7 +9,7 @@
     "prepack": "rm -rf _site && webpack && eleventy"
   },
   "author": "Möhrchenprinz",
-  "license": "ISC",
+  "license": "AGPL-3.0",
   "files": [
     "_site"
   ],
