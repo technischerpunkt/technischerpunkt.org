@@ -1,6 +1,6 @@
 {
   "name": "technical-point-cms",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "description": "",
   "main": "index.html",
   "scripts": {
@@ -18,23 +18,23 @@
   ],
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "bootstrap": "^4.6.0",
-    "css-loader": "^3.6.0",
-    "debug": "^4.3.1",
     "webpack": "^4.46.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.0",
-    "@babel/preset-env": "^7.14.1",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
     "autoprefixer": "^9.8.6",
     "babel-loader": "^8.2.2",
+    "css-loader": "^3.6.0",
     "copy-webpack-plugin": "^6.4.1",
+    "debug": "^4.3.2",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^0.10.1",
     "node-sass": "^5.0.0",
     "postcss-loader": "^3.0.0",
-    "sass-loader": "^10.1.1",
+    "sass-loader": "^10.2.0",
     "webpack-cli": "^3.3.12"
   }
 }
