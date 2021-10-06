@@ -1,0 +1,13 @@
+technischer.org {
+  root * _site
+  file_server
+}
+
+technischerpunkt.org, www.technischerpunkt.org, www.technischer.org {
+  redir https://technischer.org{uri}
+}
+
+jitsi.technischerpunkt.org, jitsi.technischer.org {
+  redir / https://technischer.org
+  redir * https://meet.systemli.org{uri}
+}
