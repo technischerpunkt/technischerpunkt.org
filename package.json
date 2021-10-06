@@ -1,6 +1,6 @@
 {
   "name": "technical-point-cms",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "",
   "main": "index.html",
   "scripts": {
@@ -14,7 +14,8 @@
   ],
   "license": "AGPL-3.0",
   "files": [
-    "_site"
+    "_site",
+    "Caddyfile"
   ],
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
