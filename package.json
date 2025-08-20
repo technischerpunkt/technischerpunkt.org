@@ -29,7 +29,7 @@
     "@babel/preset-env": "^7.16.4",
     "autoprefixer": "^9.8.8",
     "babel-loader": "^8.2.3",
-    "copy-webpack-plugin": "^6.4.1",
+    "copy-webpack-plugin": "^13.0.1",
     "css-loader": "^3.6.0",
     "debug": "^4.3.3",
     "file-loader": "^6.2.0",
