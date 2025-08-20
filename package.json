@@ -19,7 +19,7 @@
     "Caddyfile"
   ],
   "dependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^3.1.2",
     "@fortawesome/fontawesome-free": "^5.15.4",
     "bootstrap": "^4.6.1",
     "webpack": "^4.46.0"
